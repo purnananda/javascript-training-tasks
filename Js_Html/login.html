@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login</title>
+
+  <script>
+    function onFormSubmit() {
+        var form = document.getElementById('myfrm');
+
+        var userName = form.elements['uName'].value; 
+        var pwd = form.elements['uPwd'].value; 
+
+        var result = 'Username: ' + userName + ', Password: ' + pwd;
+
+        alert(result);
+    }
+</script>
+
+</head>
+<body>
+  <h2>Login</h2>
+  <form method="post" onsubmit="onFormSubmit()" id="myfrm">
+    <p>
+      <label>
+        Username : <input id="uName" type='text' />
+      </label>
+    </p>
+
+    <p>
+      <label>
+        Password : <input id="uPwd" type='password' />
+      </label>
+    </p>
+
+    <p>
+      <button type='submit'>Submit</button>
+    </p>
+  </form>
+
+  </div>
+</body>
+</html>

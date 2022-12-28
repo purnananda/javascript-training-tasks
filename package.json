@@ -1,0 +1,20 @@
+{
+  "name": "javascript-training-tasks",
+  "type":"module",
+  "version": "1.0.0",
+  "description": "Javascript training tasks",
+  "main": "ES6/modules/index.js",
+  "scripts": {
+    "start": "node ./ES6/modules/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/purnananda/javascript-training-tasks.git"
+  },
+  "author": "Purnananda Behera",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/purnananda/javascript-training-tasks/issues"
+  },
+  "homepage": "https://github.com/purnananda/javascript-training-tasks#readme"
+}
